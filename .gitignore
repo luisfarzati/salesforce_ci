@@ -1,4 +1,4 @@
 build.properties
 tools
-lib
+lib/*.jar
 fetch

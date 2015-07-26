@@ -7,6 +7,8 @@
   <property file="build.properties" />
   <property name="libdir" value="lib" />
 
+  <import file="${libdir}/undeploy.xml"/>
+
   <target name="install">
     <property name="toolsdir" value="tools" />
     <property name="sflibname" value="salesforce_ant_34.0.zip" />
